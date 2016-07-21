@@ -1,1 +1,1 @@
-web: python runserver.py -a google -u tabiodun01 -p Seven6cakes -l M6K0A3 -st 32
+web: python runserver.py -a google -u $GOOGLE_UNAME -p $GOOGLE_PASS -l $POKE_LOCATION -st 50
