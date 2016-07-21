@@ -64,4 +64,4 @@ if __name__ == '__main__':
     else:
         config['GMAPS_KEY'] = load_credentials(os.path.dirname(os.path.realpath(__file__)))['gmaps_key']
     port = int(os.environ.get("PORT", 5000))
-    app.run(threaded=True, debug=args.debug, host=args.host, port=port)
+    app.run(threaded=True, debug=args.debug, host='0.0.0.0', port=port)
